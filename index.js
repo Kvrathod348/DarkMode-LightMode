@@ -20,3 +20,7 @@ function dark(){
     const bodyMood=document.getElementById('body');
     bodyMood.classList= "bg-dark"
 }
+
+function enter(){
+    const enterNmae=document.getElementById()
+}

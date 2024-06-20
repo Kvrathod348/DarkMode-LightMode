@@ -9,58 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap"
         rel="stylesheet">
-    <style>
-        body {
-            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        .app-title {
-            text-align: center;
-            background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-            padding: 35px;
-            margin-top: 0;
-            
-        }
-
-        .fonts {
-            font-family: "Playwrite GB J", cursive;
-            font-optical-sizing: auto;
-            font-weight: weight;
-            font-style: normal;
-        }
-
-        .theme-mode {
-            position: absolute;
-            right: 0px;
-            top: 25px;
-        }
-
-        .img-btn {
-            width: 60px;
-            margin: 0 20px;
-            padding: 10px;
-            cursor: pointer;
-        }
-
-        .active{
-            border:  #f5f5f5 solid 1px;
-            box-shadow:  #80ff80 0px 0px 15px;
-        }
-
-        .bg-light{
-            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            min-height: 100vh;
-            color: #333;
-        }
-        .bg-dark{
-            background-image: linear-gradient(to right, #b2afaf 0%, black 100%);
-            min-height: 100vh;
-            color: #f5f5f5;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body id="body">
@@ -69,7 +18,36 @@
         <div class="theme-mode">
             <img src="../Bright-sun.png" alt="" id="light" class="img-btn" onclick="light()">
             <img src="../Dark-moon.png" alt="" id="dark" class="img-btn" onclick="dark()">
-        </div>    
+        </div>
+    </div>
+    <div>
+        <img src="../poster.jpg" alt="" class="poster-head">
+
+        <div class="input-search">
+            <input type="text" placeholder="Enter Character Name " id="Input" class="input fonts">
+
+            <div class="btn">
+                <button onclick="enter()" class="button-btn fonts">Enter</button>
+                <button onclick="reset()" class="button-btn fonts">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-info">
+        <div class="container-img">
+            <h2 id="hero-name" class="fonts">Name: Izuku Midoriya (Deku) <br> Quirk: One for All </h2>
+            <img src="../deku.jpg" alt="Deku" id="hero" class="hero-img">
+        </div>
+        <div class="container-detail">
+            <h2 id="hero-name" class="fonts">Izuku Midoriya (Deku)</h2>
+            <p id="hero-detail"> One for All: This quirk allows the user to stockpile power, increase their physical
+                capabilities, and transfer it to others. It can also incorporate the quirks of previous One For All
+                holders.
+                Gearshift: Izuku uses Blackwhip to simulate movement when immobilized by Gearshift, which appears as
+                dark lines under his skin.
+                Nickname: Izuku's nickname, "Deku", comes from "Dekunobou", which means "someone who can't do anything".
+                Katsuki Bakugo gave him this nickname after Izuku failed to develop a Quirk as a child while Katsuki
+                did.</p>
+        </div>
     </div>
     <script src="../index.js"></script>
 </body>
