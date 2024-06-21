@@ -98,5 +98,11 @@ body {
 }
 .hero-img{
     width: 50vh;
+    height: 80vh;
+    object-fit: cover;
     
+}
+
+.hero-detail{
+    font-size: 20px;
 }
