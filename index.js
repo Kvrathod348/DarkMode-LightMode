@@ -42,6 +42,14 @@ Here are some fun facts about All Might, a character from My Hero Academia:<br>
 
         case "Kanchan":
             heroImage.src = '../bakugou.png'
+            heroDetail.innerHTML = `Personality :<br>
+Bakugo is arrogant, violent, and crude, but he also works hard, strives for perfection, and is committed to his morals. He can be unpleasant, especially to Izuku Midoriya, and he often bullies Midoriya.<br>
+Appearance :<br>
+Bakugo has short, spiky, sandy blond hair with choppy bangs that hang over his eyebrows.<br>
+Quirk :<br>
+Bakugo's Quirk is called "Explosion", which allows him to excrete nitroglycerin-like sweat from his palms and ignite it to create explosions.<br>
+Interests:<br>
+Bakugo likes mountain climbing and spicy food.`
             console.log("HeroName: Dynamight , qurik: Explosion ");
             break;
 
@@ -71,8 +79,17 @@ function reset(){
     const characterNameValue = characterName.value;
     const heroImage = document.getElementById('hero-img')
     const heroName= document.getElementById('hero-name')
+    const heroDetail = document.getElementById('hero-detail')
 
     characterName.value=""
     heroImage.src='../deku.jpg'
     heroName.innerText='Name: Izuku Midoriya (Deku)'
+    heroDetail.innerHTML=`QuriK:<br>One for All: This quirk allows the user to stockpile power, increase their physical
+                capabilities, and transfer it to others. It can also incorporate the quirks of previous One For All
+                holders.<br>
+                Gearshift: Izuku uses Blackwhip to simulate movement when immobilized by Gearshift, which appears as
+                dark lines under his skin.<br>
+                Nickname: Izuku's nickname, "Deku", comes from "Dekunobou", which means "someone who can't do anything".<br>
+                Katsuki Bakugo gave him this nickname after Izuku failed to develop a Quirk as a child while Katsuki
+                did.`
 }

@@ -55,7 +55,8 @@ body {
 }
 .input-search{
     width: 52vh;
-    margin: 30px auto;
+    margin: 5px auto;
+    margin-top: 50px;
 }
 .input{
     width: 48vh;
@@ -80,9 +81,6 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-.container-info{
-    background-color: aqua;
-}
 
 .container-img
 {
@@ -100,9 +98,46 @@ body {
     width: 50vh;
     height: 80vh;
     object-fit: cover;
+    margin-top: 50px;
     
 }
 
 .hero-detail{
     font-size: 20px;
+}
+
+.container-categories{
+    
+    margin-top: 680px;
+    padding: 25px;
+   
+}
+
+.section-heading{
+    background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
+    text-align: center;
+    padding: 50px;
+
+}
+.container-card{
+    /* background-color: #99e9b4; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px ;
+}
+
+.card{
+    
+}
+.card-img{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 0 25px 0 0;
+    
+}
+
+.card-name{
+    text-align: center;
 }
