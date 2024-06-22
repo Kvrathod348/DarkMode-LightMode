@@ -19,6 +19,10 @@ function dark() {
 
     const bodyMood = document.getElementById('body');
     bodyMood.classList = "bg-dark"
+
+    const cardFont = document.getElementById('container-card');
+    cardFont.classList = "card-name-dark"
+
 }
 
 function enter() {
@@ -92,4 +96,32 @@ function reset(){
                 Nickname: Izuku's nickname, "Deku", comes from "Dekunobou", which means "someone who can't do anything".<br>
                 Katsuki Bakugo gave him this nickname after Izuku failed to develop a Quirk as a child while Katsuki
                 did.`
+}
+
+// Best selling card 1
+
+function first(){
+    const heroImage = document.getElementById('card-one');
+
+    heroImage.src = "../best-selling-action/Deku.png"
+}
+function second(){
+    const heroImage = document.getElementById('card-one');
+
+    heroImage.src = "../best-selling-action/Deku2.0.png"
+}
+function third(){
+    const heroImage = document.getElementById('card-one');
+
+    heroImage.src = "../best-selling-action/hookEye.png"
+}
+function fourth(){
+    const heroImage = document.getElementById('card-one');
+
+    heroImage.src = "../best-selling-action/indevar.png"
+}
+function fifth(){
+    const heroImage = document.getElementById('card-one');
+
+    heroImage.src = "../best-selling-action/group.png"
 }
