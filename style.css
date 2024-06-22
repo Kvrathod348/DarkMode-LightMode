@@ -5,6 +5,8 @@ body {
     padding: 0;
 }
 
+
+
 .app-title {
     background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
     padding: 35px;
@@ -60,7 +62,7 @@ body {
 }
 .input{
     width: 48vh;
-    height: 5vh;
+    height: 9vh;
     border-radius: 20px 5px 5px 5px;
     padding: 10px;
     text-align: center;
@@ -73,14 +75,59 @@ body {
     margin: 20px 0;
     
 }
-.button-btn{
-    width: 20vh;
-    height: 5vh;
-    border: none;
-    border-radius: 0  20px 0 0;
+.btn-enter{
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Styling Btn */
+
+button{
+    cursor: pointer;
+    margin-left: 30%;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+/* end */
+
 
 .container-img
 {
@@ -181,18 +228,13 @@ body {
 
 /* card one  */
 
-.figure-name{ 
-    background-color: #99e9b4;
-    margin-top: 300px;
-    padding: 10px;
 
-}
 
 .card-1-1{
-    background-color: #333;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
     border-radius: 0 25px 0 0;
     width: 450px;
-    height: 600px;
+    height: 610px;
 }
 .card-show{
     width: 350px;
@@ -212,3 +254,18 @@ body {
     padding: 5px;
     border-radius: 15px;
 }
+
+.product-card-detail{
+    width: 450px;
+    margin-top: 290px;
+}
+.star{
+    width: 400px;
+    margin: 5px 0;
+    object-fit: cover;
+    height: 45px;
+}
+.figure-name{ 
+
+}
+
