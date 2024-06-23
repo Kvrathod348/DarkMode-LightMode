@@ -33,7 +33,7 @@ function enter() {
 
     switch (characterNameValue) {
         case "All Might":
-            heroImage.src = '../allmight.jpg'
+            heroImage.src = './allmight.jpg'
             heroDetail.innerHTML = `Quirk: One for All
 Here are some fun facts about All Might, a character from My Hero Academia:<br>
 - All Might, whose real name is Toshinori Yagi, is Japan's number one hero and is considered the world's strongest and greatest hero.<br>
@@ -45,7 +45,7 @@ Here are some fun facts about All Might, a character from My Hero Academia:<br>
             break;
 
         case "Kanchan":
-            heroImage.src = '../bakugou.png'
+            heroImage.src = './bakugou.png'
             heroDetail.innerHTML = `Personality :<br>
 Bakugo is arrogant, violent, and crude, but he also works hard, strives for perfection, and is committed to his morals. He can be unpleasant, especially to Izuku Midoriya, and he often bullies Midoriya.<br>
 Appearance :<br>
@@ -58,7 +58,7 @@ Bakugo likes mountain climbing and spicy food.`
             break;
 
         case "Eijiro Kirishima":
-            heroImage.src = '../Eijiro Kirishima.jpeg'
+            heroImage.src = './Eijiro Kirishima.jpeg'
             console.log("HeroName: Red Riot , qurik: Hardening");
             break;
 
@@ -103,25 +103,25 @@ function reset(){
 function first(){
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "../best-selling-action/Deku.png"
+    heroImage.src = "./best-selling-action/Deku.png"
 }
 function second(){
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "../best-selling-action/Deku2.0.png"
+    heroImage.src = "./best-selling-action/Deku2.0.png"
 }
 function third(){
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "../best-selling-action/hookEye.png"
+    heroImage.src = "./best-selling-action/hookEye.png"
 }
 function fourth(){
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "../best-selling-action/indevar.png"
+    heroImage.src = "./best-selling-action/indevar.png"
 }
 function fifth(){
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "../best-selling-action/group.png"
+    heroImage.src = "./best-selling-action/group.png"
 }

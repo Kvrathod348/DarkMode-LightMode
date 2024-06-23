@@ -11,7 +11,7 @@ body {
     background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
     padding: 35px;
     margin-top: 0;
-    
+
 }
 
 .fonts {
@@ -34,33 +34,37 @@ body {
     cursor: pointer;
 }
 
-.active{
-    border:  #f5f5f5 solid 1px;
-    box-shadow:  #80ff80 0px 0px 15px;
+.active {
+    border: #f5f5f5 solid 1px;
+    box-shadow: #80ff80 0px 0px 15px;
 }
 
-.bg-light{
+.bg-light {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 100vh;
     color: #333;
 }
-.bg-dark{
+
+.bg-dark {
     background-image: linear-gradient(to right, #b2afaf 0%, black 100%);
     min-height: 100vh;
     color: #f5f5f5;
 }
-.poster-head{
+
+.poster-head {
     width: 218.5vh;
     height: 70vh;
     object-fit: cover;
     margin-top: 0;
 }
-.input-search{
+
+.input-search {
     width: 52vh;
     margin: 5px auto;
     margin-top: 50px;
 }
-.input{
+
+.input {
     width: 48vh;
     height: 9vh;
     border-radius: 20px 5px 5px 5px;
@@ -68,14 +72,17 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
-    
+
 }
-.btn-enter{
+
+.btn-enter {
     margin-top: 30px;
     margin-left: 5px;
     text-align: center;
@@ -85,7 +92,7 @@ body {
 
 /* Styling Btn */
 
-button{
+button {
     cursor: pointer;
     margin-left: 30%;
     padding: 10px 25px;
@@ -97,13 +104,13 @@ button{
     position: relative;
     font-weight: 1000;
     font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms;
     overflow: hidden;
-   }
-   
-   button::before {
+}
+
+button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -113,159 +120,200 @@ button{
     border-radius: 15px;
     background-color: #212121;
     z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms
-   }
-   
-   button:hover {
+}
+
+button:hover {
     color: #e8e8e8;
-   }
-   
-   button:hover::before {
+}
+
+button:hover::before {
     width: 100%;
-   }
+}
 
 /* end */
 
 
-.container-img
-{
+.container-img {
     width: 500px;
     position: absolute;
     left: 25px;
 }
-.container-detail{
+
+.container-detail {
     width: 1009px;
     margin: 95px auto;
     position: absolute;
     right: 25px;
 }
-.hero-img{
+
+.hero-img {
     width: 50vh;
     height: 80vh;
     object-fit: cover;
     margin-top: 50px;
-    
+
 }
 
-.hero-detail{
+.hero-detail {
     font-size: 20px;
 }
 
-.container-categories{
-    
+.container-categories {
+
     margin-top: 680px;
     padding: 25px;
-   
+
 }
 
-.section-heading{
+.section-heading {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
     text-align: center;
     padding: 50px;
 
 }
-.container-card{
+
+.container-card {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 60px ;
+    margin-top: 60px;
     cursor: pointer;
 }
 
-.card{
-    background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+.card {
+    background-image: linear-gradient(109.6deg, rgba(254, 253, 205, 1) 11.2%, rgba(163, 230, 255, 1) 91.1%);
     margin: 30px;
     border-radius: 0 25px 0 0;
 }
-.card:hover{ 
-        
-        transform: scale(1.1);
-        transition: 0.6s ease-in-out;
+
+.card:hover {
+
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
 }
-.card-img{
+
+.card-img {
     width: 280px;
     height: 280px;
     margin: 10px;
     border-radius: 0 25px 0 0;
-    
+
 }
 
-.card-name{
+.card-name {
     text-align: center;
 }
 
-.card-name-dark{
+.card-name-dark {
     color: #333;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.poster-head2{
+.poster-head2 {
     width: 214vh;
     height: 85vh;
-    margin : 20px 0;
-} 
+    margin: 20px 0;
+}
 
 /* Best selling Collection */
 
-.selling-heading{
+.selling-heading {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
     text-align: center;
     padding: 20px;
     border: #38f9d7 solid 5px;
-    
+
 }
 
-.container-best-sell{
+.container-best-sell {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 100px 0;
 }
 
 /* card one  */
 
 
 
-.card-1-1{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+.card-1-1 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
     border-radius: 0 25px 0 0;
     width: 450px;
     height: 610px;
 }
-.card-show{
+
+.card-show {
     width: 350px;
     height: 370px;
     margin: 10px;
     border-radius: 0 25px 0 0;
 }
-.card-img-changer{
+
+.card-img-changer {
     width: 70px;
     height: 90px;
     margin-left: 370px;
     margin-top: -378px;
     cursor: pointer;
 }
-.img-changes{
+
+.img-changes {
     width: 60px;
     padding: 5px;
     border-radius: 15px;
 }
 
-.product-card-detail{
+.product-card-detail {
     width: 450px;
     margin-top: 290px;
 }
-.star{
+
+.star {
     width: 400px;
     margin: 5px 0;
     object-fit: cover;
     height: 45px;
 }
-.figure-name{ 
 
+.figure-name {}
+
+/* footer section */
+
+.footer-1 {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 35vh;
 }
 
+.footer-img {
+    width: 100px;
+    margin: 0 50px;
+}
+
+.footer-heading {
+   margin: 0 5px;
+}
+
+.footer-social-icon{
+    width: 40px;
+    margin: 3px;
+    cursor: pointer ;
+}
+
+.footer1-1{
+    padding: 10px;
+}
+
+.footer-link{
+    font-size: 20px;
+}
