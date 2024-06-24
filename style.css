@@ -239,8 +239,6 @@ button:hover::before {
 
 /* card one  */
 
-
-
 .card-1-1 {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
     border-radius: 0 25px 0 0;
@@ -269,6 +267,12 @@ button:hover::before {
     border-radius: 15px;
 }
 
+.img-changes:hover{
+    box-shadow: #06ac61 0px 0px 25px;
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+}
+
 .product-card-detail {
     width: 450px;
     margin-top: 290px;
@@ -281,7 +285,10 @@ button:hover::before {
     height: 45px;
 }
 
-.figure-name {}
+.figure-name {
+    font-size: medium;
+    text-align: center;
+}
 
 /* footer section */
 
@@ -300,6 +307,7 @@ button:hover::before {
     margin: 0 50px;
 }
 
+
 .footer-heading {
    margin: 0 5px;
 }
@@ -308,12 +316,19 @@ button:hover::before {
     width: 40px;
     margin: 3px;
     cursor: pointer ;
+    border-radius: 10px;
 }
 
+.footer-social-icon:hover{
+    box-shadow: #48fa69 0px 0px 25px;
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+}
 .footer1-1{
     padding: 10px;
 }
 
 .footer-link{
-    font-size: 20px;
+    font-size: 17px;
+    cursor: pointer;
 }
