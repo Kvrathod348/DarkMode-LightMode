@@ -33,7 +33,7 @@ function enter() {
 
     switch (characterNameValue) {
         case "All Might":
-            heroImage.src = './img-detail/allmight.jpg'
+            heroImage.src = './images/img-detail/allmight.jpg'
             heroDetail.innerHTML = `Quirk: One for All
 Here are some fun facts about All Might, a character from My Hero Academia:<br>
 - All Might, whose real name is Toshinori Yagi, is Japan's number one hero and is considered the world's strongest and greatest hero.<br>
@@ -45,7 +45,7 @@ Here are some fun facts about All Might, a character from My Hero Academia:<br>
             break;
 
         case "Kanchan":
-            heroImage.src = './img-detail/bakugou.png'
+            heroImage.src = './images/img-detail/bakugou.png'
             heroDetail.innerHTML = `Personality :<br>
 Bakugo is arrogant, violent, and crude, but he also works hard, strives for perfection, and is committed to his morals. He can be unpleasant, especially to Izuku Midoriya, and he often bullies Midoriya.<br>
 Appearance :<br>
@@ -58,12 +58,12 @@ Bakugo likes mountain climbing and spicy food.`
             break;
 
         case "Eijiro Kirishima":
-            heroImage.src = './img-detail/Eijiro Kirishima.jpeg'
+            heroImage.src = './images/img-detail/Eijiro Kirishima.jpeg'
             console.log("HeroName: Red Riot , qurik: Hardening");
             break;
 
         case "Tenya Ida":
-            heroImage.src = './img-detail/Enginium.jpg'
+            heroImage.src = './images/img-detail/Enginium.jpg'
             heroDetail.innerHTML =`Here are some fun facts about Tenya Iida from My Hero Academia:<br>
 Quirk : <br>
 Tenya's Quirk is called Recipro Turbo, which gives him car-like engines in his calves. This gives him incredible running speed and extreme kicking power.<br>
@@ -75,7 +75,7 @@ Tenya may appear severe, unfriendly, and intimidating, but he is actually straig
             break;
 
         case "Fumikage Tokoyami":
-            heroImage.src = './img-detail/DarkShadow.jpg'
+            heroImage.src = './images/img-detail/DarkShadow.jpg'
             heroDetail.innerHTML = `Qurik : Dark Shadow , <br>
             Here are some fan facts about Fumikage Tokoyami from My Hero Academia:<br>
 -Fumikage hatched from an egg like a tiny bird and grew a human body.<br>
@@ -103,7 +103,7 @@ function reset() {
     const heroDetail = document.getElementById('hero-detail')
 
     characterName.value = ""
-    heroImage.src = '../deku.jpg'
+    heroImage.src = './images/img-detail/deku.jpg'
     heroName.innerText = 'Name: Izuku Midoriya (Deku)'
     heroDetail.innerHTML = `QuriK:<br>One for All: This quirk allows the user to stockpile power, increase their physical
                 capabilities, and transfer it to others. It can also incorporate the quirks of previous One For All
@@ -120,60 +120,60 @@ function reset() {
 function first() {
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "./best-selling-action/Deku.png"
+    heroImage.src = "./images/best-selling-action/Deku.png"
 }
 
 function second() {
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "./best-selling-action/Deku2.0.png"
+    heroImage.src = "./images/best-selling-action/Deku2.0.png"
 }
 
 function third() {
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "./best-selling-action/hookEye.png"
+    heroImage.src = "./images/best-selling-action/hookEye.png"
 }
 
 function fourth() {
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "./best-selling-action/indevar.png"
+    heroImage.src = "./images/best-selling-action/indevar.png"
 }
 
 function fifth() {
     const heroImage = document.getElementById('card-one');
 
-    heroImage.src = "./best-selling-action/group.png"
+    heroImage.src = "./images/best-selling-action/group.png"
 }
 
 // card 2
 function first1() {
     const heroImage = document.getElementById('card-two');
 
-    heroImage.src = "./merchandise/mer.jpg"
+    heroImage.src = "./images/best-merchandise/mer.jpg"
 }
 
 function second2() {
     const heroImage = document.getElementById('card-two');
 
-    heroImage.src = "./merchandise/merc.jpg"
+    heroImage.src = "./images/best-merchandise/merc.jpg"
 }
 
 function third3() {
     const heroImage = document.getElementById('card-two');
 
-    heroImage.src = "./merchandise/merch.jpg"
+    heroImage.src = "./images/best-merchandise/merch.jpg"
 }
 
 function fourth4() {
     const heroImage = document.getElementById('card-two');
 
-    heroImage.src = "./merchandise/mercha.jpg"
+    heroImage.src = "./images/best-merchandise/mercha.jpg"
 }
 
 function fifth5() {
     const heroImage = document.getElementById('card-two');
 
-    heroImage.src = "./merchandise/merchandise-best.jpg"
+    heroImage.src = "./images/best-merchandise/merchandise-best.jpg"
 }
