@@ -18,6 +18,9 @@ function dark() {
 
     const bodyMode = document.getElementById('body');
     bodyMode.classList = "bg-dark"
+
+     const cardFont = document.getElementById('container-card');
+    cardFont.classList = "card-name-dark"
 }
 // production change function
 
@@ -60,7 +63,7 @@ function inc() {
         alert("You can't buy more than 10 items")
     }
 
-    priceTotal.innerText = (`Total : ${quantity * 2000}`)
+    priceTotal.innerText = (`Total : ${quantity * 2000}rs/-`)
 
 }
 
@@ -73,5 +76,5 @@ function dec() {
     } else {
         alert("You can't buy less than 1 item")
     }
-    priceTotal.innerText = (`Total : ${quantity * 2000}/-`)
+    priceTotal.innerText = (`Total : ${quantity * 2000}rs/-`)
 }

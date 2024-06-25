@@ -337,4 +337,5 @@ button:hover::before {
 .footer-link{
     font-size: 17px;
     cursor: pointer;
+    text-decoration: none;
 }
