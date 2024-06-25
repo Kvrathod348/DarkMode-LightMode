@@ -1,9 +1,9 @@
 function light() {
     const lightMode = document.getElementById('light')
-    lightMode.classList.add('active');
+    lightMode.classList.add('active1');
 
     const darkMood = document.getElementById('dark');
-    darkMood.classList.remove('active');
+    darkMood.classList.remove('active2');
 
     const bodyMood = document.getElementById('body');
     bodyMood.classList = "bg-light"
@@ -12,10 +12,10 @@ function light() {
 
 function dark() {
     const darkMood = document.getElementById('dark');
-    darkMood.classList.add('active');
+    darkMood.classList.add('active2');
 
     const lightMode = document.getElementById('light')
-    lightMode.classList.remove('active');
+    lightMode.classList.remove('active1');
 
     const bodyMood = document.getElementById('body');
     bodyMood.classList = "bg-dark"
