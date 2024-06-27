@@ -14,57 +14,20 @@ body {
 
 .app-title {
     background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-    padding: 35px;
+    font-size: 45px;
+    padding: 40px;
 }
 
 .theme-mode {
     position: absolute;
     right: 0px;
     top: 25px;
-
 }
 
 .img-btn {
-    width: 60px;
-    margin: 0 20px;
+    width: 90px;
+    margin: 30px 20px;
     cursor: pointer;
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
-    .app-title {
-        background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-        width: 75vh;
-        padding: 35px;
-        font-size: 20px;
-    }
-
-    .theme-mode {
-        position: absolute;
-        right: -220px;
-        top: 25px;
-    }
-
-    .img-btn {
-        width: 50px;
-        margin: 10px 5px;
-        cursor: pointer;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 800px) {
-    .main-nav {}
-
-    .app-title {
-        background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-        padding: 35px;
-        font-size: 30px;
-    }
-
-    .img-btn {
-        width: 45px;
-        margin: 30px 15px;
-        cursor: pointer;
-    }
 }
 
 /* js part */
@@ -133,68 +96,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
 
-    .poster-head {
-        width: 85vh;
-        height: 40vh;
-        object-fit: cover;
-        margin-top: 0;
-    }
-
-    .input-search {
-        width: 47vh;
-        margin: 10px 110px;
-        margin-top: 50px;
-    }
-
-    .input {
-        width: 47vh;
-        height: 7vh;
-        border-radius: 20px 5px 5px 5px;
-        padding: 5px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-    }
-
-    .head-input {
-        margin: 10px 0;
-    }
-
-
-}
-
-@media screen and (min-width: 600px) and (max-width: 800px){
-    .poster-head {
-        width: 57vh;
-        height: 40vh;
-        object-fit: cover;
-        margin-top: 0;
-    }
-
-    .input-search {
-        width: 47vh;
-        margin: 10px 20px;
-        margin-top: 50px;
-    }
-
-    .input {
-        width: 47vh;
-        height: 7vh;
-        border-radius: 20px 5px 5px 5px;
-        padding: 5px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-    }
-
-    .head-input {
-        margin: 10px 0;
-    }
-}
 
 /* Styling Btn */
 
@@ -244,77 +146,53 @@ button:hover::before {
 
 .container-img {
     width: 500px;
-    position: absolute;
-    left: 25px;
 }
 
 .container-detail {
     width: 1009px;
-    margin: 95px auto;
+    margin-top: -686px;
+    margin-left: 607px;
 }
 
 .hero-img {
     width: 50vh;
-    height: 80vh;
+    height: 70vh;
+    object-fit: cover;
     margin-top: 50px;
+    margin-left: 150px;
 
 }
-
+.hero-name{
+    font-size: 35px;
+    margin-left: 150px;
+}
 .hero-detail {
-    font-size: 20px;
+    width: 1500px;
+    font-size: 30px;
+    margin-left: 150px;
+    
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
-
-    .container-img {
-        width: 500px;
-    }
-
-    .container-detail {
-        width: 380px;
-        margin-top: 310px;
-        margin-left: 60px;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .hero-img {
-        width: 32vh;
-        height: 40vh;
-        margin: 30px 125px;
-        /* object-fit: cover; */
-    }
-
-    .hero-detail {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 800px) {
-
-}
 
 /* categories section */
 
 .container-categories {
-    margin-top: 50px;
-    padding: 35px;
-
+    margin-top: 250px;
 }
 
 .section-heading {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-    width: 430px;
+    width: 207vh;
     text-align: center;
-    padding: 50px;
-
+    padding: 60px;
+    font-size: 55px;
 }
 
 .container-card {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin: 100px 0;
     cursor: pointer;
 }
 
@@ -331,8 +209,8 @@ button:hover::before {
 }
 
 .card-img {
-    width: 280px;
-    height: 280px;
+    width: 450px;
+    height: 450px;
     margin: 10px;
     border-radius: 0 25px 0 0;
 
@@ -340,6 +218,7 @@ button:hover::before {
 
 .card-name {
     text-align: center;
+    font-size: 25px;
 }
 
 .card-name-dark {
@@ -355,65 +234,6 @@ button:hover::before {
     margin: 20px 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
-
-    .container-categories {
-        margin-top: 680px;
-        padding: 25px;
-    }
-
-    .section-heading {
-        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-        border: #02fa8a double 5px;
-        border-radius: 28px;
-        text-align: center;
-        padding: 20px;
-        font-size: 20px;
-
-    }
-
-    .container-card {
-        width: 320px;
-        margin-top: 40px;
-        margin: 0 -15px;
-        cursor: pointer;
-    }
-
-    .card {
-        background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-        width: 100px;
-        height: 130px;
-        margin: 30px;
-        border-radius: 0 15px 0 0;
-    }
-
-    .card:hover {
-        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-        transform: scale(1.1);
-        transition: 0.6s ease-in-out;
-    }
-
-    .card-img {
-        width: 80px;
-        height: 80px;
-        margin: 10px;
-        border-radius: 0 15px 0 0;
-
-    }
-
-    .card-name {
-        text-align: center;
-        font-size: 7px;
-    }
-
-    .poster-head2 {
-        width: 57vh;
-        height: 28vh;
-        margin: 20px 0;
-        margin-left: -23px;
-    }
-
-}
 
 
 /* Best selling Collection */
@@ -421,7 +241,7 @@ button:hover::before {
 .selling-heading {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     border: #38f9d7 solid 5px;
 
 }
@@ -439,7 +259,7 @@ button:hover::before {
 .card-1-1 {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
     border-radius: 0 25px 0 0;
-    width: 450px;
+    width: 650px;
     height: 610px;
 }
 
@@ -486,81 +306,6 @@ button:hover::before {
     text-align: center;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
-    .selling-heading {
-        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-        text-align: center;
-        padding: 10px;
-        border: #38f9d7 double 5px;
-        border-radius: 0 25px;
-        font-size: 20px;
-    }
-
-    .container-best-sell {
-        margin: 50px 0;
-        cursor: pointer;
-    }
-
-    /* card one  */
-
-    .card-1-1 {
-        background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
-        border-radius: 25px;
-        margin: 15px 0;
-        width: 140px;
-        height: 190px;
-    }
-
-    .card-show {
-        width: 100px;
-        height: 100px;
-        margin: 10px;
-        border-radius: 10px;
-    }
-
-    .card-img-changer {
-        width: 15px;
-        margin-left: 115px;
-        margin-top: -113px;
-        cursor: pointer;
-    }
-
-    .img-changes {
-        width: 17px;
-        border-radius: 5px;
-    }
-
-    .img-changes:hover {
-        box-shadow: #06ac61 0px 0px 25px;
-        transform: scale(1.1);
-        transition: 0.6s ease-in-out;
-    }
-
-    .product-card-detail {
-        width: 100px;
-        margin-top: 15px;
-        margin-left: 6px;
-    }
-
-    .star {
-        width: 80px;
-        height: 10px;
-        margin: 0px 13px;
-        object-fit: cover;
-
-    }
-
-    .figure-name {
-        width: 120px;
-        font-size: 5px;
-    }
-    .buy-btn{
-       margin-left: 30px;
-       padding: 5px;
-       font-size: 7px;
-    }
-}
-
 
 /* footer section */
 
@@ -605,47 +350,4 @@ button:hover::before {
     font-size: 17px;
     cursor: pointer;
     text-decoration: none;
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px){
-    .footer-1 {
-        background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        height: 130vh;
-    }
-    
-    .footer-img {
-        width: 80px;
-        margin: 0 60px;
-    }
-    
-    .footer-heading {
-        margin: 0 4px;
-    }
-    
-    .footer-social-icon {
-        width: 40px;
-        margin: 3px;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-    
-    .footer1-1 {
-        padding: 10px;
-    }
-
-    .font1-1-1{
-        margin-left: 40px; 
-    }
-    
-    .footer-link {
-        font-size: 17px;
-        margin-left: 40px;
-        cursor: pointer;
-        text-decoration: none;
-    }   
 }
