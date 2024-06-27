@@ -57,10 +57,10 @@ function inc() {
     const priceText = document.getElementById('pricetext')
     const priceTotal = document.getElementById('pricetotal');
 
-    if (quantity < 10) {
+    if (quantity < 5) {
         quantityText.innerText = ++quantity;
     } else {
-        alert("You can't buy more than 10 items")
+        alert("You can't buy more than 5 items")
     }
 
     priceTotal.innerText = (`Total : ${quantity * 2000}rs/-`)
