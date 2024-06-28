@@ -99,7 +99,7 @@ body {
     .theme-mode {
         width: 170px;
         margin-top: -125px;
-        margin-left: 489px;
+        margin-left: 691px;
     }
 
     .img-btn {
@@ -112,6 +112,11 @@ body {
         width: 112.5vh;
         height: 59vh;
         object-fit: cover;
+    }
+    .input-search {
+        width: 52vh;
+        margin: 5px 230px;
+        margin-top: 50px;
     }
 }
 
@@ -227,7 +232,7 @@ button:hover::before {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .container-img {
         width: 676px;
         height: 525px;
@@ -235,8 +240,8 @@ button:hover::before {
 
     .container-detail {
         width: 720px;
-        margin-top: -29px;
-        margin-left: -110px;
+        margin-top: 99px;
+        margin-left: -31px;
     }
 
     .hero-img {
@@ -244,7 +249,7 @@ button:hover::before {
         height: 70vh;
         object-fit: cover;
         margin-top: 50px;
-        margin-left: 177px;
+        margin-left: 230px;
     }
 
     .hero-name {
@@ -311,7 +316,7 @@ button:hover::before {
     margin: 20px 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .container-categories {
         width: 667px;
         margin-top: 90px;
@@ -319,7 +324,7 @@ button:hover::before {
 
     .section-heading {
         background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-        width: 93vh;
+        width: 97vh;
         text-align: center;
         padding: 57px;
         font-size: 46px;
@@ -330,14 +335,14 @@ button:hover::before {
         justify-content: space-around;
         flex-wrap: wrap;
         margin: 30px 0;
-        width: 665px;
+        width: 859px;
         cursor: pointer;
     }
 
     .card {
         background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-        width: 247px;
-        height: 351px;
+        width: 310px;
+        height: 365px;
         margin: 30px;
         border-radius: 0 25px 0 25px;
     }
@@ -349,8 +354,8 @@ button:hover::before {
     }
 
     .card-img {
-        width: 220px;
-        height: 220px;
+        width: 280px;
+        height: 265px;
         margin: 10px;
         border-radius: 0 25px 0 0;
     }
@@ -436,10 +441,10 @@ button:hover::before {
     text-align: center;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 7680px) {
     .selling-heading {
         text-align: center;
-        width: 555px;
+        width: 750px;
         padding: 50px;
         font-size: 45px;
         border: #38f9d7 solid 5px;
@@ -449,7 +454,7 @@ button:hover::before {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        margin: 100px 0;
+        margin: 100px 134px;
     }
 
     /* card one  */
@@ -549,15 +554,15 @@ button:hover::before {
     text-decoration: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .footer-1 {
         margin: 10px;
         height: 181vh;
-        width: 675px;
+        width: 850px;
     }
 
     .footer-img {
-        width: 150px;
+        width: 170px;
         margin: 0px 89px;
     }
 
@@ -581,8 +586,12 @@ button:hover::before {
 
     .footer1-1 {
         text-align: center;
-        margin: 0 40px;
+        margin: 10px 120px;
         padding: 0 11px;
+    }
+
+    .footer1-1-1{
+        font-size: 45px;
     }
 
     .footer-link {
