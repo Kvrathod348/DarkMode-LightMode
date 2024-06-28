@@ -79,7 +79,7 @@ body {
     margin-top: 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
     body {
         width: 665px;
     }
@@ -316,7 +316,7 @@ button:hover::before {
     margin: 20px 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
     .container-categories {
         width: 667px;
         margin-top: 90px;
@@ -441,7 +441,7 @@ button:hover::before {
     text-align: center;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
     .selling-heading {
         text-align: center;
         width: 737px;
@@ -554,7 +554,7 @@ button:hover::before {
     text-decoration: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
     .footer-1 {
         font-size: 23px;
         margin: 10px 0;
