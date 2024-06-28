@@ -12,23 +12,7 @@ body {
     font-style: normal;
 }
 
-.app-title {
-    background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-    font-size: 45px;
-    padding: 40px;
-}
 
-.theme-mode {
-    position: absolute;
-    right: 0px;
-    top: 25px;
-}
-
-.img-btn {
-    width: 90px;
-    margin: 30px 20px;
-    cursor: pointer;
-}
 
 /* js part */
 .active1 {
@@ -55,7 +39,38 @@ body {
     color: #f5f5f5;
 }
 
+.card-name-dark {
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /* end */
+
+.main-nav {
+    width: 218vh;
+    height: 250px;
+    margin: 0;
+}
+
+.app-title {
+    background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
+    font-size: 45px;
+    padding: 50px;
+
+}
+
+.theme-mode {
+    margin-top: -139px;
+    margin-left: 1999px;
+}
+
+.img-btn {
+    width: 90px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
 
 .poster-head {
     width: 218.5vh;
@@ -64,6 +79,43 @@ body {
     margin-top: 0;
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+        width: 665px;
+    }
+
+    .main-nav {
+        background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
+        width: 112vh;
+        height: 124px;
+        margin-top: -23px;
+    }
+
+    .app-title {
+        font-size: 35px;
+        padding: 35px;
+    }
+
+    .theme-mode {
+        width: 170px;
+        margin-top: -125px;
+        margin-left: 489px;
+    }
+
+    .img-btn {
+        width: 60px;
+        margin: 10px 11px;
+        cursor: pointer;
+    }
+
+    .poster-head {
+        width: 112.5vh;
+        height: 59vh;
+        object-fit: cover;
+    }
+}
+
+/* nav bar end */
 .input-search {
     width: 52vh;
     margin: 5px auto;
@@ -162,17 +214,50 @@ button:hover::before {
     margin-left: 150px;
 
 }
-.hero-name{
+
+.hero-name {
     font-size: 35px;
     margin-left: 150px;
 }
+
 .hero-detail {
     width: 1500px;
     font-size: 30px;
     margin-left: 150px;
-    
+
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container-img {
+        width: 676px;
+        height: 525px;
+    }
+
+    .container-detail {
+        width: 720px;
+        margin-top: -29px;
+        margin-left: -110px;
+    }
+
+    .hero-img {
+        width: 50vh;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: 50px;
+        margin-left: 177px;
+    }
+
+    .hero-name {
+        font-size: 35px;
+        margin-left: 186px;
+    }
+
+    .hero-detail {
+        width: 600px;
+        text-align: center;
+        font-size: 26px;
+    }
+}
 
 /* categories section */
 
@@ -213,19 +298,11 @@ button:hover::before {
     height: 450px;
     margin: 10px;
     border-radius: 0 25px 0 0;
-
 }
 
 .card-name {
     text-align: center;
     font-size: 25px;
-}
-
-.card-name-dark {
-    color: #333;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .poster-head2 {
@@ -234,7 +311,61 @@ button:hover::before {
     margin: 20px 0;
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container-categories {
+        width: 667px;
+        margin-top: 90px;
+    }
 
+    .section-heading {
+        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
+        width: 93vh;
+        text-align: center;
+        padding: 57px;
+        font-size: 46px;
+    }
+
+    .container-card {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 30px 0;
+        width: 665px;
+        cursor: pointer;
+    }
+
+    .card {
+        background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+        width: 247px;
+        height: 351px;
+        margin: 30px;
+        border-radius: 0 25px 0 25px;
+    }
+
+    .card:hover {
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+
+    .card-img {
+        width: 220px;
+        height: 220px;
+        margin: 10px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .card-name {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .poster-head2 {
+        width: 111vh;
+        height: 58vh;
+        margin: 20px 0;
+    }
+}
 
 /* Best selling Collection */
 
@@ -242,8 +373,8 @@ button:hover::before {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
     text-align: center;
     padding: 50px;
+    font-size: 45px;
     border: #38f9d7 solid 5px;
-
 }
 
 .container-best-sell {
@@ -253,33 +384,32 @@ button:hover::before {
     margin: 100px 0;
 }
 
-
 /* card one  */
-
 .card-1-1 {
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
     border-radius: 0 25px 0 0;
-    width: 650px;
-    height: 610px;
+    width: 580px;
+    height: 700px;
+    padding: 10px;
 }
 
 .card-show {
-    width: 350px;
-    height: 370px;
+    width: 450px;
+    height: 480px;
     margin: 10px;
     border-radius: 0 25px 0 0;
 }
 
 .card-img-changer {
     width: 70px;
-    height: 90px;
-    margin-left: 370px;
-    margin-top: -378px;
+    height: 237px;
+    margin-left: 462px;
+    margin-top: -513px;
     cursor: pointer;
 }
 
 .img-changes {
-    width: 60px;
+    width: 80px;
+    margin: 10px 20px;
     border-radius: 15px;
 }
 
@@ -290,25 +420,93 @@ button:hover::before {
 }
 
 .product-card-detail {
-    width: 450px;
-    margin-top: 290px;
+    width: 584px;
+    margin-top: 282px
 }
 
 .star {
-    width: 400px;
+    width: 523px;
     margin: 5px 0;
     object-fit: cover;
     height: 45px;
 }
 
 .figure-name {
-    font-size: medium;
+    font-size: 22px;
     text-align: center;
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .selling-heading {
+        text-align: center;
+        width: 555px;
+        padding: 50px;
+        font-size: 45px;
+        border: #38f9d7 solid 5px;
+    }
+
+    .container-best-sell {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 100px 0;
+    }
+
+    /* card one  */
+    .card-1-1 {
+        border-radius: 25px 0 25px 0;
+        width: 580px;
+        margin: 23px 0;
+        height: 700px;
+        padding: 10px;
+    }
+
+    .card-show {
+        width: 450px;
+        height: 480px;
+        margin: 10px;
+        border-radius: 25px 0 25px 0;
+    }
+
+    .card-img-changer {
+        width: 70px;
+        height: 237px;
+        margin-left: 462px;
+        margin-top: -513px;
+        cursor: pointer;
+    }
+
+    .img-changes {
+        width: 80px;
+        margin: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .img-changes:hover {
+        box-shadow: #06ac61 0px 0px 25px;
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+
+    .product-card-detail {
+        width: 584px;
+        margin-top: 282px
+    }
+
+    .star {
+        width: 523px;
+        margin: 5px 0;
+        object-fit: cover;
+        height: 45px;
+    }
+
+    .figure-name {
+        font-size: 22px;
+        text-align: center;
+    }
+}
 
 /* footer section */
-
 .footer-1 {
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
     display: inline-block;
@@ -316,7 +514,7 @@ button:hover::before {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 35vh;
+    height: 23vh;
 }
 
 .footer-img {
@@ -324,14 +522,13 @@ button:hover::before {
     margin: 0 50px;
 }
 
-
 .footer-heading {
     margin: 0 5px;
 }
 
 .footer-social-icon {
-    width: 40px;
-    margin: 3px;
+    width: 55px;
+    margin: 8px;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -350,4 +547,42 @@ button:hover::before {
     font-size: 17px;
     cursor: pointer;
     text-decoration: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .footer-1 {
+        font-size: 23px;
+        margin: 10px 0;
+        height: 183vh;
+        width: 675px;
+    }
+    .footer-img {
+        width: 150px;
+        margin: 0px 50px;
+    }
+    .footer-heading {
+        font-size: 40px;
+        margin: 0 5px;
+    }
+    .footer-social-icon {
+        width: 75px;
+        margin: 8px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .footer-social-icon:hover {
+        box-shadow: #48fa69 0px 0px 25px;
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+    .footer1-1 {
+        text-align: center;
+        margin: 0 40px;
+        padding: 0 11px;
+    }
+    .footer-link {
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
