@@ -132,9 +132,9 @@ button:hover::before {
     }
 
     .main-nav {
-        width: 185vh;
-        height: 200px;
-        margin-top: -46px;
+        width: 227vh;
+        height: 259px;
+        margin-top: 2px;
     }
 
     .app-title {
@@ -142,9 +142,9 @@ button:hover::before {
     }
 
     .theme-mode {
-        width: 81vh;
-        margin-top: -40vh;
-        margin-left: 126vh;
+        width: 58vh;
+        margin-top: -33vh;
+        margin-left: 159vh;
     }
 
     .img-btn {
@@ -155,8 +155,8 @@ button:hover::before {
     }
 
     .poster-head {
-        width: 184.5vh;
-        height: 106vh;
+        width: 215vh;
+        height: 120vh;
         object-fit: cover;
     }
 
@@ -304,6 +304,7 @@ button:hover::before {
     width: 205vh;
     text-align: center;
     padding: 60px;
+    text-align: center;
     font-size: 55px;
 }
 
@@ -315,11 +316,12 @@ button:hover::before {
     cursor: pointer;
 }
 
-.card2{
+.card2 {
     background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
     margin: 30px;
     border-radius: 0 25px 0 0;
 }
+
 .card2:hover {
     background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
     transform: scale(1.1);
@@ -333,12 +335,66 @@ button:hover::before {
     border-radius: 0 25px 0 0;
 }
 
-.video{
+.video {
     margin: 0 500px;
     width: 100vh;
     height: 500px;
 }
 
+@media screen and (max-width: 600px) {
+    .poster-head2 {
+        width: 201vh;
+        height: 120vh;
+
+    }
+
+    .section-heading {
+        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
+        width: 205vh;
+        text-align: center;
+        padding: 60px;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .container-categories {
+        width: 224vh;
+    }
+
+    .container-card {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 100px 0;
+        cursor: pointer;
+
+    }
+
+    .card2 {
+        background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+        margin: 30px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .card2:hover {
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+
+    .card-img {
+        width: 450px;
+        height: 450px;
+        margin: 10px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .video {
+        margin: 0 385px;
+        width: 100vh;
+        height: 500px;
+    }
+}
 
 /* footer section */
 .footer-1 {
@@ -377,7 +433,7 @@ button:hover::before {
 }
 
 .footer1-1 {
-   margin: 0px 0;
+    margin: 0px 0;
 }
 
 .footer1-1-1 {
@@ -392,7 +448,7 @@ button:hover::before {
     margin: 10px 0;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .footer-1 {
         background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
         display: inline-block;
