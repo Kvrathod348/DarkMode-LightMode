@@ -78,25 +78,26 @@ body {
     object-fit: cover;
     margin-top: 0;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     body {
         width: 185vh;
     }
 
     .main-nav {
         width: 185vh;
-        height: 275px;
-        margin-top: -23px;
+        height: 200px;
+        margin-top: -46px;
     }
 
     .app-title {
-        font-size: 100px;
+        font-size: 69px;
     }
 
     .theme-mode {
-        width: 40vh;
-        margin-top: -250px;
-        margin-left: 146vh;
+        width: 81vh;
+        margin-top: -40vh;
+        margin-left: 126vh;
     }
 
     .img-btn {
@@ -113,6 +114,7 @@ body {
     }
 
 }
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
         width: 665px;
@@ -120,31 +122,32 @@ body {
 
     .main-nav {
         background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-        width: 112vh;
-        height: 124px;
-        margin-top: -23px;
+        width: 185vh;
+        height: 275px;
+        margin-top: -40px;
     }
 
     .app-title {
-        font-size: 35px;
-        padding: 35px;
+        font-size: 60px;
     }
 
     .theme-mode {
-        width: 170px;
-        margin-top: -125px;
-        margin-left: 691px;
+        width: 50vh;
+        margin-top: -33vh;
+        margin-left: 134vh;
     }
 
     .img-btn {
-        width: 60px;
-        margin: 10px 11px;
+        width: 90px;
+        margin: 12px 28px;
+        border-radius: 80px;
         cursor: pointer;
     }
 
     .poster-head {
-        width: 112.5vh;
-        height: 59vh;
+        width: 185vh;
+        height: 116vh;
+        margin-top: -91px;
         object-fit: cover;
     }
 
@@ -197,6 +200,7 @@ body {
         margin-top: 50px;
     }
 }
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
         min-width: 115vh;
@@ -238,7 +242,8 @@ body {
         margin: 24px 305px;
         margin-top: 50px;
     }
-} 
+}
+
 /* nav bar end */
 .input-search {
     width: 52vh;
@@ -350,8 +355,75 @@ button:hover::before {
     margin-left: 150px;
 
 }
-@media screen and (max-width: 600px){
-    
+
+@media screen and (max-width: 600px) {
+    .input-search {
+        height: 37vh;
+        width: 52vh;
+        margin: 40px 300px;
+        margin-top: 50px;
+    }
+
+    .input {
+        margin: 25px 0px;
+        width: 92vh;
+        height: 17vh;
+        border-radius: 20px 5px 5px 5px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 42px;
+        cursor: pointer;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-around;
+        margin: 83px -8px;
+        width: 97vh;
+
+    }
+
+    .btn-enter {
+        margin-top: 31px;
+        margin-left: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .container-img {
+        width: 183vh;
+        height: 105vh;
+    }
+
+    .container-detail {
+        width: 185vh;
+        margin: 13px;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60vh;
+        height: 85vh;
+        object-fit: cover;
+        margin: 101px 400px;
+    }
+
+    .hero-name {
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .hero-detail {
+        width: 175vh;
+        font-size: 45px;
+        margin: 23px;
+    }
+
+}
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .container-img {
         width: 676px;
@@ -468,6 +540,59 @@ button:hover::before {
     width: 214vh;
     height: 85vh;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container-categories {
+        margin-top: 250px;
+    }
+
+    .section-heading {
+        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
+        width: 165vh;
+        text-align: center;
+        padding: 60px;
+        font-size: 55px;
+        border-radius: 100px;
+    }
+
+    .container-card {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 100px 0;
+        cursor: pointer;
+    }
+
+    .card {
+        background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+        margin: 30px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .card:hover {
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+
+    .card-img {
+        width: 450px;
+        height: 450px;
+        margin: 10px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .card-name {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .poster-head2 {
+        width: 185vh;
+        height: 85vh;
+        margin: 20px 0;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -650,6 +775,77 @@ button:hover::before {
 .figure-name {
     font-size: 22px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .selling-heading {
+        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
+        text-align: center;
+        padding: 50px;
+        font-size: 45px;
+        border: #38f9d7 solid 5px;
+        border-radius: 100px
+    }
+
+    .container-best-sell {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 100px 0;
+    }
+
+    /* card one  */
+    .card-1-1 {
+        border-radius: 0 25px 0 0;
+        width: 580px;
+        height: 700px;
+        padding: 10px;
+    }
+
+    .card-show {
+        width: 450px;
+        height: 480px;
+        margin: 10px;
+        border-radius: 0 25px 0 0;
+    }
+
+    .card-img-changer {
+        width: 70px;
+        height: 237px;
+        margin-left: 462px;
+        margin-top: -513px;
+        cursor: pointer;
+    }
+
+    .img-changes {
+        width: 80px;
+        margin: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .img-changes:hover {
+        box-shadow: #06ac61 0px 0px 25px;
+        transform: scale(1.1);
+        transition: 0.6s ease-in-out;
+    }
+
+    .product-card-detail {
+        width: 584px;
+        margin-top: 282px
+    }
+
+    .star {
+        width: 523px;
+        margin: 5px 0;
+        object-fit: cover;
+        height: 45px;
+    }
+
+    .figure-name {
+        font-size: 22px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 7680px) {
@@ -916,7 +1112,7 @@ button:hover::before {
     }
 
     .footer1-1-1 {
-        font-size:40px;
+        font-size: 40px;
     }
 
     .footer-link {
