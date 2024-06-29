@@ -49,31 +49,34 @@ body {
 /* end */
 
 .main-nav {
-    width: 218vh;
-    height: 250px;
-    margin: 0;
+    width: 210vh;
+    height: 20vh;
+    margin: -2vh;
 }
 
 .app-title {
     background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-    font-size: 45px;
-    padding: 50px;
+    font-size: 70px;
+    margin: 0 20px;
+    padding: 65px 40px;
 
 }
 
 .theme-mode {
-    margin-top: -139px;
-    margin-left: 1999px;
+    width: 25vh;
+    margin-top: -12vh;
+    margin-left: 185vh;
 }
 
 .img-btn {
-    width: 90px;
+    width: 120px;
     margin: 10px 20px;
+    border-radius: 60px;
     cursor: pointer;
 }
 
 .poster-head {
-    width: 218.5vh;
+    width: 208vh;
     height: 70vh;
     object-fit: cover;
     margin-top: 0;
@@ -254,24 +257,26 @@ body {
 .input {
     width: 48vh;
     height: 9vh;
-    border-radius: 20px 5px 5px 5px;
-    padding: 10px;
+    border-radius: 35px 5px 5px 5px;
+    margin: 15px 0;
+    padding: 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     cursor: pointer;
 }
 
 .btn {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 80px 0;
 
 }
 
 .btn-enter {
-    margin-top: 30px;
-    margin-left: 5px;
+    font-size: 40px;
+    padding: 20px 40px;
+    margin: 12px 45px;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
@@ -330,9 +335,10 @@ button:hover::before {
 }
 
 .container-detail {
-    width: 1009px;
-    margin-top: -686px;
-    margin-left: 607px;
+    width: 91vh;
+    margin-top: -881px;
+    margin-left: 955px;
+    margin-bottom: 16vh;
 }
 
 .hero-img {
@@ -345,15 +351,14 @@ button:hover::before {
 }
 
 .hero-name {
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 150px;
 }
 
 .hero-detail {
-    width: 1500px;
-    font-size: 30px;
+    width: 100vh;
+    font-size: 35px;
     margin-left: 150px;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -498,7 +503,7 @@ button:hover::before {
 
 .section-heading {
     background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-    width: 207vh;
+    width: 200vh ;
     text-align: center;
     padding: 60px;
     font-size: 55px;
@@ -509,12 +514,13 @@ button:hover::before {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 100px 0;
+    width: 200vh;
     cursor: pointer;
 }
 
 .card {
     background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-    margin: 30px;
+    margin: 50px;
     border-radius: 0 25px 0 0;
 }
 
@@ -537,7 +543,7 @@ button:hover::before {
 }
 
 .poster-head2 {
-    width: 214vh;
+    width: 208vh;
     height: 85vh;
     margin: 20px 0;
 }
@@ -710,14 +716,6 @@ button:hover::before {
 
 /* Best selling Collection */
 
-.selling-heading {
-    background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-    text-align: center;
-    padding: 50px;
-    font-size: 45px;
-    border: #38f9d7 solid 5px;
-}
-
 .container-best-sell {
     display: flex;
     justify-content: space-around;
@@ -779,14 +777,6 @@ button:hover::before {
 
 
 @media screen and (max-width: 600px) {
-    .selling-heading {
-        background-image: linear-gradient(to right, #8af4ae 0%, #38f9d7 100%);
-        text-align: center;
-        padding: 50px;
-        font-size: 45px;
-        border: #38f9d7 solid 5px;
-        border-radius: 100px
-    }
 
     .container-best-sell {
         display: flex;
@@ -995,20 +985,23 @@ button:hover::before {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 35vh;
+    width: 208vh;
+    height: 25vh;
+    text-align: center;
 }
 
 .footer-img {
-    width: 100px;
-    margin: 0 50px;
+    width: 12vh;
+    margin: 0 30px;
 }
 
 .footer-heading {
-    margin: 0 5px;
+    font-size: 40px;
+    margin: 0px -24px;
 }
 
 .footer-social-icon {
-    width: 55px;
+    width: 75px;
     margin: 8px;
     cursor: pointer;
     border-radius: 10px;
@@ -1021,17 +1014,19 @@ button:hover::before {
 }
 
 .footer1-1 {
-    padding: 10px;
+   margin: 0px 0;
 }
 
 .footer1-1-1 {
-    padding: 10px;
+    font-size: 40px;
+    margin: 51px -24px;
 }
 
 .footer-link {
-    font-size: 17px;
+    font-size: 25px;
     cursor: pointer;
     text-decoration: none;
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 600px){
