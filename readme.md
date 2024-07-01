@@ -19,6 +19,7 @@ Welcome to Myheroacedmia, your ultimate hub for anime enthusiasts! Dive into a w
 1. **Explore Characters:** Use the search function or browse categories to find information about specific anime characters.
 2. **Discover Facts:** Check out the "Did You Know?" section for interesting insights and trivia.
 3. **Shop Merchandise:** Visit the store section to browse and purchase anime-related collectibles and merchandise.
+4. **Screen Size Adjust Laptops** Screen Size Home -50% , Action figures Section -67% , Buy page -100% . 
    
 
 
