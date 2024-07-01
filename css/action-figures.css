@@ -212,7 +212,7 @@ button:hover::before {
 
     .main-nav {
         background-image: linear-gradient(to right, #99e9b4 0%, #38f9d7 100%);
-        width: 113vh;
+        width: 155vh;
         height: 188px;
         margin-top: -39px;
     }
